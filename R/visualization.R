@@ -28,7 +28,7 @@ plot_category_counts <- function(data, column, top_n = 10L) {
   }
   values <- as.character(data[[column]])
   values[is.na(values)] <- "(Missing)"
-  tally <- head(sort(table(values), decreasing = TRUE), top_n)
+  tally <- utils::head(sort(table(values), decreasing = TRUE), top_n)
   counts <- data.frame(category = names(tally), n = as.integer(tally))
   counts$category <- factor(counts$category, levels = rev(counts$category))
 
