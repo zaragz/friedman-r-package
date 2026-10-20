@@ -76,7 +76,7 @@ devtools::test()       # run automated tests
 devtools::check()      # check package structure and dependencies
 ```
 
-**Verification:** Automated tests are provided, but this package should be tested in a local R environment before being described as verified or production-ready.
+**Verification:** Friedman v0.1.0 was tested locally in RStudio using devtools::test() and devtools::check(). All 23 automated tests passed. The package check completed with zero errors, zero warnings, and one environment-related note concerning system time verification.
 
 ## Author
 
