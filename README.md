@@ -61,7 +61,6 @@ friedman-r-package/
 ├── man/
 ├── tests/
 │   └── testthat/
-├── .Rbuildignore
 ├── .gitignore
 └── README.md
 ```
