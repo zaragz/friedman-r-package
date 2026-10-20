@@ -1,0 +1,23 @@
+Package: Friedman
+Title: Reusable Tools for Exploratory Data Analysis
+Version: 0.1.0
+Authors@R:
+    person("Zara", "Gonzalez", role = c("aut", "cre"), email = "zaragonzalez@usf.edu")
+Description: Provides small, reusable functions for summarizing numeric data,
+    inspecting dataset completeness, identifying potential outliers using the
+    interquartile range method, and visualizing categorical frequencies.
+    Developed from an academic R package exercise and expanded as a portfolio project.
+License: CC0
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends:
+    R (>= 3.6.0)
+Imports:
+    ggplot2,
+    rlang
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+URL: https://github.com/zaragz/friedman-r-package
+BugReports: https://github.com/zaragz/friedman-r-package/issues
